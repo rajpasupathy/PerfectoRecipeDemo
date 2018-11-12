@@ -13,7 +13,7 @@ class RecipeUITests: XCTestCase {
     /* Sample Test Case */
     func testExample() {
         
-        
+            
         let tablesQuery = XCUIApplication().tables
         tablesQuery/*@START_MENU_TOKEN@*/.images["dish3"]/*[[".cells",".images[\"Oval in shape, green avocado, red tomato, crunchy, sprinkles of cheese.\"]",".images[\"dish3\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/.tap()
         
